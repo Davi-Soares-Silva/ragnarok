@@ -1,0 +1,42 @@
+:root{
+   --primary-color: #0073B2;
+   --primary-color-light: #0CAAB2;
+   --secundary-color: #39C322;
+   --tertiary-color: #C1BABA;
+   --tertiary-color-light: #D9D2D2;
+   --details-color: #CDC5C5;
+
+   font-size: 65%;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body, #root{
+   height: 100vh;
+}
+
+#root{
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.container{
+   width: 100vw;
+   max-width: 1200px;
+}
+
+body,
+button{
+   font: 500 1.6rem Poppins;
+}
+
+@media(max-width: 800px){
+   :root{
+      font-size: 45%;
+   }
+}

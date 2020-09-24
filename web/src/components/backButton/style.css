@@ -1,0 +1,33 @@
+#back-button-container{
+   height: 10rem;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding-left: 12rem;
+}
+
+#back-button-container button{
+   width: 18rem;
+   height: 5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background-color: rgb(255, 255, 255);
+}
+
+#back-button-container button img{
+   width: 6rem;
+   height: 6rem;
+}
+
+#back-button-container button strong{
+   font: 500 3.6rem Roboto;
+   color: #CDC5C5;
+}
+
+a{
+   text-decoration: none;
+}

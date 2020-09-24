@@ -1,0 +1,191 @@
+#details-page {
+   width: 100vw;
+   min-height: 100vh;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(226, 223, 223);
+ }
+ 
+ #details-page-content, #loading-container {
+   min-height: 100vh;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff;
+ }
+ 
+ #loading-container h1{
+   font-size: 5rem;
+ }
+ 
+ #game-details-container {
+   height: 90rem;
+   max-width: 1000px;
+   margin: 5rem;
+   display: flex;
+   flex-wrap: wrap;
+   align-self: center;
+   justify-content: center;
+   border-radius: 2rem;
+   -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+ }
+ 
+ #buy-informations-container {
+   width: 90%;
+   height: 40%;
+   border-bottom: solid 0.4rem var(--tertiary-color-light);
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   /* background-color: red; */
+ }
+ 
+ #buy-informations-container img {
+   width: 25rem;
+   height: 30rem;
+   -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+ }
+ 
+ #buy-informations-container #details {
+   width: 65%;
+   height: 100%;
+   margin-left: 1.6rem;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+ }
+ 
+ #game-informations {
+   width: 100%;
+   height: 63%;
+ }
+ 
+ #game-informations span {
+   font: 500 5rem Poppins;
+ }
+ 
+ #game-informations span.smallName{
+   font-size: 3.5rem;
+ }
+ 
+ #game-informations span.platform {
+   font-size: 3rem;
+ }
+ 
+ #buy-buttons-container {
+   height: 34%;
+   width: 80%;
+   /* background-color: red; */
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding-bottom: 1.6rem;
+ }
+ 
+ #buy-buttons-container button {
+   width: 22rem;
+   height: 8rem;
+   border: none;
+   outline: none;
+   background-color: var(--secundary-color);
+   margin-right: 2.4rem;
+   font: 500 2.4rem Poppins;
+   color: #fff;
+   font-weight: bold;
+   border-radius: 1.6rem;
+   cursor: pointer;
+   -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+ }
+ 
+ #platform-container{
+   width: 100%;
+   height: 20%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+ 
+ }
+ 
+ #platform-container strong{
+   font-size: 3rem;
+   color: #474747;
+ }
+ 
+ #platform-container span.platform{
+   font-size: 2.6rem;
+   margin-top: 0.8rem;
+   margin-left: 1.6rem;
+ }
+ 
+ #buy-buttons-container button.add-cart {
+   background-color: var(--primary-color);
+   font-size: 1.4rem;
+ }
+ 
+ #game-additional-informations-container{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1.6rem;
+ }
+ 
+ /* Estilização do menu de informações do game */
+ 
+ #game-information-menu{
+    width: 90%;
+    height: 15%;
+    background-color: #F2F1F1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2rem;
+ 
+ }
+ 
+ #game-information-menu button{
+    border: none;
+    outline: none;
+    font: 500 2.4rem Poppins;
+    font-weight: bold;
+    color: var(--tertiary-color-light);
+    cursor: pointer;
+ }
+ 
+ #game-information-menu button#active{
+    color: var(--primary-color);
+    border-bottom: solid 0.2rem var(--primary-color) ;
+ }
+ 
+ #game-information-menu span{
+    color: var(--tertiary-color-light);
+    font-weight: bold;
+    font-size: 3.2rem;
+ }
+ 
+ #description-container{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 3.2rem;
+ }
+ 
+ #description-container p{
+    font: 500 2.4rem Roboto;
+    color: var(--tertiary-color);
+    text-align: justify;
+ }
+ 

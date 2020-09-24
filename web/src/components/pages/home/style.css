@@ -1,0 +1,61 @@
+#home-page{
+   width: 100vw;
+   min-height: 100vh;
+   height: auto;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   background-color: var(--primary-color-light);
+}
+
+#home-page-content{
+   background-color: #fff;
+   min-height: 10rem;
+   align-items: flex-start;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: auto;
+   -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+#games-container .card-link{
+   text-decoration: none;
+}
+
+#search-games-container{
+   min-height: 70rem;
+   height: auto;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+#result-search-games{
+   width: 100%;
+   height: auto;
+   min-height: 60rem;
+   display: flex;
+   /* background:red; */
+   padding: 4rem;
+   justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#result-not-found-games{
+   width: 100%;
+   height: auto;
+   min-height: 60rem;
+   display: flex;
+   /* background:red; */
+   padding: 4rem;
+   justify-content: center;
+    flex-wrap: wrap;
+}
+
+#search-games-container > h1 {
+   margin-left: 8rem;
+}
