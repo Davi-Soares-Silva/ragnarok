@@ -1,14 +1,10 @@
 # Ragnarok
 ### Projeto desenvolvido no processo seletivo da Primi Tecnologia.
-* Loja de games online que também disponibiliza filiais físicas onde se pode obter os jogos.
+
+Solução desenvolvida para uma loja de games que necessita de uma plataforma para iniciar a sua venda de jogos online, 
+porém que também divulgue as lojas físicas onde os clientes também poderão obter os games.
 
 ## Tecnologias Utilizadas
-
-### Web
 * ReactJS
-
-### Mobile
 * React Native
-
-### Backend
 * NodeJS
